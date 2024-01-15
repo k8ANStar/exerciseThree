@@ -15,6 +15,7 @@ export default function ExampleThree() {
 	}, [number]);
 	return (
 		<>
+			<Header />
 			<h1>Example 3</h1>
 			<button
 				style={{ backgroundColor: colors[number] }}
@@ -23,6 +24,7 @@ export default function ExampleThree() {
 				Increment Number
 			</button>
 			<div>{number}</div>
+			<Footer />
 		</>
 	);
 }
